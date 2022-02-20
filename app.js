@@ -59,8 +59,8 @@ function game(){
         else if (answer.substring(4, 8) === "Lose"){
             comp++
         }
-        resultsPlay.innerHTML = player;
-        resultsComp.innerHTML = comp;
+        resultsPlay.innerHTML = `Player: ${player}`;
+        resultsComp.innerHTML = `Computer: ${comp}`;
         if (player === 5){
             alert("Player Wins");
             player = 0;
@@ -81,8 +81,8 @@ function game(){
         else if (answer.substring(4, 8) === "Lose"){
             comp++
         }
-        resultsPlay.innerHTML = player;
-        resultsComp.innerHTML = comp;
+        resultsPlay.innerHTML = `Player: ${player}`;
+        resultsComp.innerHTML = `Computer: ${comp}`;
         if (player === 5){
             alert("Player Wins");
             player = 0;
@@ -103,8 +103,8 @@ function game(){
         else if (answer.substring(4, 8) === "Lose"){
             comp++
         }
-        resultsPlay.innerHTML = player;
-        resultsComp.innerHTML = comp;
+        resultsPlay.innerHTML = `Player: ${player}`;
+        resultsComp.innerHTML = `Computer: ${comp}`;
         if (player === 5){
             alert("Player Wins");
             player = 0;
